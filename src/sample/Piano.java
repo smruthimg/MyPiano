@@ -64,28 +64,28 @@ public class Piano extends Application
         r4a.setFill(Color.BLACK);
 
         final AudioClip note1 =
-                new AudioClip(new File("C:\\Users\\smrut\\OneDrive\\Documents\\MyPiano\\wav-piano-sound-master\\wav\\a1.wav").toURI().toString());
+                new AudioClip(new File(".\\wav-piano-sound-master\\wav\\a1.wav").toURI().toString());
         final AudioClip note2 =
-                new AudioClip(new File("C:\\Users\\smrut\\OneDrive\\Documents\\MyPiano\\wav-piano-sound-master\\wav\\b1.wav").toURI().toString());
+                new AudioClip(new File(".\\wav-piano-sound-master\\wav\\b1.wav").toURI().toString());
         final AudioClip note3 =
-                new AudioClip(new File("C:\\Users\\smrut\\OneDrive\\Documents\\MyPiano\\wav-piano-sound-master\\wav\\c1.wav").toURI().toString());
+                new AudioClip(new File(".\\wav-piano-sound-master\\wav\\c1.wav").toURI().toString());
 
         final AudioClip note4 =
-                new AudioClip(new File("C:\\Users\\smrut\\OneDrive\\Documents\\MyPiano\\wav-piano-sound-master\\wav\\d1.wav").toURI().toString());
+                new AudioClip(new File(".\\wav-piano-sound-master\\wav\\d1.wav").toURI().toString());
 
 
         final AudioClip note5 =
-                new AudioClip(new File("C:\\Users\\smrut\\OneDrive\\Documents\\MyPiano\\wav-piano-sound-master\\wav\\e1.wav").toURI().toString());
+                new AudioClip(new File(".\\wav-piano-sound-master\\wav\\e1.wav").toURI().toString());
 
 
         final AudioClip note6 =
-                new AudioClip(new File("C:\\Users\\smrut\\OneDrive\\Documents\\MyPiano\\wav-piano-sound-master\\wav\\f1.wav").toURI().toString());
+                new AudioClip(new File(".\\wav-piano-sound-master\\wav\\f1.wav").toURI().toString());
 
         final AudioClip note7 =
-                new AudioClip(new File("C:\\Users\\smrut\\OneDrive\\Documents\\MyPiano\\wav-piano-sound-master\\wav\\g1.wav").toURI().toString());
+                new AudioClip(new File(".\\wav-piano-sound-master\\wav\\g1.wav").toURI().toString());
 
         final AudioClip note8 =
-                new AudioClip(new File("C:\\Users\\smrut\\OneDrive\\Documents\\MyPiano\\wav-piano-sound-master\\wav\\g1s.wav").toURI().toString());
+                new AudioClip(new File(".\\wav-piano-sound-master\\wav\\g1s.wav").toURI().toString());
         C.setOnMouseClicked(new EventHandler<MouseEvent>()
         {
             @Override
